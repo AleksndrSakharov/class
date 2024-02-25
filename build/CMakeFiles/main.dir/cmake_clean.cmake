@@ -1,9 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/Fraction.cpp.o"
-  "CMakeFiles/main.dir/Fraction.cpp.o.d"
-  "CMakeFiles/main.dir/main.cpp.o"
-  "CMakeFiles/main.dir/main.cpp.o.d"
-  "main"
+  "CMakeFiles/main.dir/Fraction.cpp.obj"
+  "CMakeFiles/main.dir/Fraction.cpp.obj.d"
+  "CMakeFiles/main.dir/main.cpp.obj"
+  "CMakeFiles/main.dir/main.cpp.obj.d"
+  "libmain.dll.a"
+  "main.exe"
+  "main.exe.manifest"
   "main.pdb"
 )
 

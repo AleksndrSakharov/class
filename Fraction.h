@@ -6,6 +6,7 @@ class Fraction{
 private:
     int32_t _numerator;
     uint32_t _denominator;
+    void MethodSocr();
 public:
 
     Fraction();
@@ -14,7 +15,6 @@ public:
         _numerator = numerator;
         if (denominator == 0) throw "Error! Denominator = 0";
     }
-    bool IsValid;
 
     Fraction(const Fraction& fraction);
 
@@ -26,7 +26,9 @@ public:
 
     inline double GetDouble(){return _numerator / _denominator;};
 
-    inline void Print(){
+    
+    void Print(){
+        MethodSocr();
         std::cout << _numerator << "/" << _denominator << std::endl;
     }
     // Перегрузка оператора
