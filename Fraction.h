@@ -14,6 +14,7 @@ public:
     Fraction(int32_t numerator, uint32_t denominator){
         _numerator = numerator;
         if (denominator == 0) throw "Error! Denominator = 0";
+        _denominator = denominator;
     }
 
     Fraction(const Fraction& fraction);
@@ -24,7 +25,7 @@ public:
     void SetDenominator(uint32_t new_denominator);
     inline uint32_t GetDenominator(){return _denominator;};
 
-    inline double GetDouble(){return _numerator / _denominator;};
+    inline double GetDouble(){return static_cast<double>(_numerator) / _denominator;}
 
     
     void Print(){

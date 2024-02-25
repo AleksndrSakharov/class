@@ -10,12 +10,16 @@ int main(){
     // Fraction fraction1();
 
 
-    Fraction fraction = Fraction(10, 10);
-    fraction.SetNumerator(10);
-    fraction.SetDenominator(10);
-    std::cout << fraction.GetNumerator() << "/" << fraction.GetDenominator() << std::endl;
-    std::cout << fraction << std::endl;
-    std::cout << fraction.GetDouble() << std::endl;
+    Fraction fraction = Fraction();
+    int32_t numerator;
+    uint32_t denominator;
+    std::cin >> numerator;
+    std::cin >> denominator;
+    fraction.SetNumerator(numerator);
+    fraction.SetDenominator(denominator);
+    // std::cout << fraction.GetNumerator() << "/" << fraction.GetDenominator() << std::endl;
+    // std::cout << fraction << std::endl;
+    std::cout << std::endl << fraction.GetDouble() << std::endl;
     fraction.Print();
 
 
