@@ -11,18 +11,9 @@ void Fraction::MethodSocr(){
     _denominator /= denominator;
 }
 
-void Fraction::SetDenominator(uint32_t new_denominator){
-    if (new_denominator != 0)
-    _denominator = new_denominator;
-}
-
-void Fraction::SetNumerator(int32_t new_numerator){
-    _numerator = new_numerator;
-}
-
 
 void Fraction::DoubleToFraction(){
-    double Res = Fraction::GetDouble();
+    double Res = _dano;
     int32_t flag = 1;
     if (Res < 0){
         flag = -1;
@@ -36,20 +27,8 @@ void Fraction::DoubleToFraction(){
     }
     denom = pow(10, count);
     Res *= flag;
-    _numerator = static_cast<int32_t>(Res);
+    _numerator = Res;
     _denominator = denom;
     Fraction::MethodSocr();
-    std::cout << "Fraction: " << Fraction::GetDouble() << " = " << _numerator << "/" << _denominator << std::endl;
-}
-
-
-
-Fraction::Fraction(){
-        _numerator = 0;
-        _denominator = 1;
-    }
-
-Fraction::Fraction(const Fraction& fraction){
-    _numerator = fraction._numerator;
-    _denominator = fraction._denominator;
+    std::cout << "Fraction: " << _dano << " = " << _numerator << "/" << _denominator << std::endl;
 }

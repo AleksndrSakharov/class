@@ -15,19 +15,13 @@ int main(){
 
     // Fraction fraction1();
 
-
-    Fraction fraction = Fraction();
-    int32_t numerator;
-    uint32_t denominator;
-    std::cin >> numerator;
-    std::cin >> denominator;
-    fraction.SetNumerator(numerator);
-    fraction.SetDenominator(denominator);
+    double dano = 1;
+    std::cin >> dano;
+    Fraction fraction = Fraction(dano);
     // std::cout << fraction.GetNumerator() << "/" << fraction.GetDenominator() << std::endl;
     // std::cout << fraction << std::endl;
-    std::cout << std::endl << fraction.GetDouble() << std::endl;
-    // fraction.DoubleToFraction();
-    fraction.Print();
+    fraction.DoubleToFraction();
+    // fraction.Print();
 
 
     // Fraction fraction2_copy = Fraction(fraction2);
