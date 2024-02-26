@@ -20,6 +20,7 @@ int main(){
     // std::cout << fraction.GetNumerator() << "/" << fraction.GetDenominator() << std::endl;
     // std::cout << fraction << std::endl;
     std::cout << std::endl << fraction.GetDouble() << std::endl;
+    // fraction.DoubleToFraction();
     fraction.Print();
 
 

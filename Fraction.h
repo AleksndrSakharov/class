@@ -1,5 +1,6 @@
 #pragma once
 #include <cstdint>
+#include <cmath>
 #include <iostream>
 
 class Fraction{
@@ -27,7 +28,8 @@ public:
 
     inline double GetDouble(){return static_cast<double>(_numerator) / _denominator;}
 
-    
+    void DoubleToFraction();
+
     void Print(){
         MethodSocr();
         std::cout << _numerator << "/" << _denominator << std::endl;

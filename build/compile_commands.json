@@ -1,14 +1,12 @@
 [
 {
-  "directory": "D:/PROGA/Proga/C++/laba_2_Fraction/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\main.dir\\main.cpp.obj -c D:\\PROGA\\Proga\\C++\\laba_2_Fraction\\main.cpp",
-  "file": "D:/PROGA/Proga/C++/laba_2_Fraction/main.cpp",
-  "output": "CMakeFiles/main.dir/main.cpp.obj"
+  "directory": "/home/s23380346@unn.global/Sakharov/3823B1FI3/laba_2_Fraction/build",
+  "command": "/usr/bin/g++-12   -g -o CMakeFiles/main.dir/main.cpp.o -c /home/s23380346@unn.global/Sakharov/3823B1FI3/laba_2_Fraction/main.cpp",
+  "file": "/home/s23380346@unn.global/Sakharov/3823B1FI3/laba_2_Fraction/main.cpp"
 },
 {
-  "directory": "D:/PROGA/Proga/C++/laba_2_Fraction/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\main.dir\\Fraction.cpp.obj -c D:\\PROGA\\Proga\\C++\\laba_2_Fraction\\Fraction.cpp",
-  "file": "D:/PROGA/Proga/C++/laba_2_Fraction/Fraction.cpp",
-  "output": "CMakeFiles/main.dir/Fraction.cpp.obj"
+  "directory": "/home/s23380346@unn.global/Sakharov/3823B1FI3/laba_2_Fraction/build",
+  "command": "/usr/bin/g++-12   -g -o CMakeFiles/main.dir/Fraction.cpp.o -c /home/s23380346@unn.global/Sakharov/3823B1FI3/laba_2_Fraction/Fraction.cpp",
+  "file": "/home/s23380346@unn.global/Sakharov/3823B1FI3/laba_2_Fraction/Fraction.cpp"
 }
 ]
